@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function validateEmail(email) {
+  //email.includes('@');
   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return re.test(String(email).toLowerCase());
 }
